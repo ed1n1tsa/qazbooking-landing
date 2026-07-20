@@ -630,7 +630,7 @@ button {
 @media (min-width: 381px) and (max-width: 430px) {
   .hero__phone {
     left: 77%;
-    top: 160px;
+    top: 200px;
     bottom: auto;
 
     width: 265px;
