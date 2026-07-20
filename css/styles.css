@@ -623,3 +623,18 @@ button {
 }
 } 
 
+/* =========================================
+   IPHONE 12 И ЭКРАНЫ 381–430 PX
+========================================= */
+
+@media (min-width: 381px) and (max-width: 430px) {
+  .hero__phone {
+    left: 77%;
+    top: 85px;
+    bottom: auto;
+
+    width: 265px;
+
+    transform: translateX(-50%);
+  }
+}
