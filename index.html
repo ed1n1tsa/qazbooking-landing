@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="QazBooking — бронирование баз отдыха в Казахстане. Алаколь, Акши, Кабанбай и более 100 баз отдыха."
+  >
+
+  <title>QazBooking — Отдых начинается здесь!</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&family=Montserrat:wght@700;800;900&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="page">
+
+    <div class="page__bg" aria-hidden="true">
+      <img
+        src="assets/background.png"
+        alt=""
+        class="page__bg-image"
+      >
+    </div>
+
+    <header class="header">
+
+      <a
+        href="/"
+        class="header__logo"
+        aria-label="QazBooking"
+      >
+        <img
+          src="assets/logo.png"
+          alt="QazBooking"
+        >
+      </a>
+
+      <div
+        class="lang-switch"
+        role="group"
+        aria-label="Выбор языка"
+        data-i18n-aria="languageLabel"
+      >
+        <button
+          type="button"
+          class="lang-switch__btn"
+          data-lang="kz"
+          aria-pressed="false"
+        >
+          ҚАЗ
+        </button>
+
+        <button
+          type="button"
+          class="lang-switch__btn lang-switch__btn--active"
+          data-lang="ru"
+          aria-pressed="true"
+        >
+          РУС
+        </button>
+      </div>
+
+    </header>
+
+    <main class="hero">
+
+      <h1 class="hero__title">
+
+        <span
+          class="hero__title-line hero__title-line--first"
+          data-i18n="title1"
+        >
+          ОТДЫХ
+        </span>
+
+        <span
+          class="hero__title-line hero__title-line--second"
+          data-i18n="title2"
+        >
+          НАЧИНАЕТСЯ
+        </span>
+
+        <span
+          class="hero__title-line hero__title-line--red"
+          data-i18n="title3"
+        >
+          ЗДЕСЬ!
+        </span>
+
+      </h1>
+
+      <p class="hero__subtitle">
+
+        <span
+          class="hero__subtitle-line"
+          data-i18n="subtitle1"
+        >
+          Не трать часы в Instagram.
+        </span>
+
+        <span class="hero__subtitle-line">
+
+          <span
+            class="hero__subtitle-brand"
+            data-i18n="subtitleBrand"
+          >
+            QazBooking
+          </span>
+
+          <span data-i18n="subtitle2">
+            — всё в одном
+          </span>
+
+        </span>
+
+        <span
+          class="hero__subtitle-line"
+          data-i18n="subtitle3"
+        >
+          приложении.
+        </span>
+
+      </p>
+
+      <div class="hero__cities">
+
+        <span data-i18n="city1">
+          АЛАКОЛЬ
+        </span>
+
+        <span data-i18n="city2">
+          АКШИ
+        </span>
+
+        <span data-i18n="city3">
+          КАБАНБАЙ
+        </span>
+
+      </div>
+
+      <div class="hero__stat">
+
+        <span
+          class="hero__stat-prefix"
+          data-i18n="statPrefix"
+        >
+          Более
+        </span>
+
+        <span class="hero__stat-number">
+          100
+        </span>
+
+        <span
+          class="hero__stat-suffix"
+          data-i18n="statSuffix"
+        >
+          баз отдыха
+        </span>
+
+      </div>
+
+      <div class="hero__stores">
+
+        <a
+          href="https://apps.apple.com/ru/app/qazbooking/id6746087328"
+          class="store-btn"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Скачать QazBooking в App Store"
+          data-i18n-aria="appleAria"
+        >
+          <img
+            src="assets/apple.png"
+            alt=""
+            class="store-btn__icon"
+          >
+
+          <span class="store-btn__text">
+
+            <span
+              class="store-btn__label"
+              data-i18n="storeAppleLabel"
+            >
+              Скачать в
+            </span>
+
+            <span class="store-btn__name">
+              App Store
+            </span>
+
+          </span>
+        </a>
+
+        <a
+          href="https://play.google.com/store/apps/details?id=kz.qazbooking.qazbooking"
+          class="store-btn"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Скачать QazBooking в Google Play"
+          data-i18n-aria="googleAria"
+        >
+          <img
+            src="assets/play.png"
+            alt=""
+            class="store-btn__play"
+          >
+
+          <span class="store-btn__text">
+
+            <span
+              class="store-btn__label"
+              data-i18n="storeGoogleLabel"
+            >
+              Скачать в
+            </span>
+
+            <span class="store-btn__name">
+              Google Play
+            </span>
+
+          </span>
+        </a>
+
+      </div>
+
+      <img
+        src="assets/phone.png"
+        alt="Приложение QazBooking"
+        class="hero__phone"
+      >
+
+    </main>
+
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
