@@ -627,7 +627,7 @@ button {
    IPHONE 12 И ЭКРАНЫ 381–430 PX
 ========================================= */
 
-@media (min-width: 381px) and (max-width: 430px) {
+@media (min-width: 381px) and (max-width: 399px) {
   .hero__phone {
     left: 77%;
     top: 200px;
@@ -636,5 +636,23 @@ button {
     width: 265px;
 
     transform: translateX(-50%);
+  }
+}
+
+@media (min-width: 400px) and (max-width: 419px) {
+  .hero__phone {
+    top: 235px;
+    bottom: auto;
+    left: 77%;
+    width: 265px;
+  }
+}
+
+@media (min-width: 420px) and (max-width: 449px) {
+  .hero__phone {
+    top: 260px;
+    bottom: auto;
+    left: 77%;
+    width: 265px;
   }
 }
