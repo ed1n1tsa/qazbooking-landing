@@ -656,3 +656,57 @@ button {
     width: 265px;
   }
 }
+
+/* =========================================
+   НИЖНИЙ СЛОГАН
+========================================= */
+
+.hero__footer {
+  position: absolute;
+  left: 50%;
+  bottom: 18px;
+
+  transform: translateX(-50%);
+
+  z-index: 30;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: calc(100% - 30px);
+
+  text-align: center;
+
+  pointer-events: none;
+}
+
+.hero__footer-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  text-shadow:
+    0 0 10px rgba(255,255,255,.25);
+}
+
+.hero__footer-brand {
+  margin-top: 2px;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: 1px;
+
+  text-transform: uppercase;
+
+  color: #1fbd59;
+
+  text-shadow:
+    0 0 10px rgba(31,189,89,.45),
+    0 0 22px rgba(31,189,89,.3);
+}
