@@ -553,10 +553,11 @@ button {
   }
 
   .hero__phone {
-    left: 77%;
-    bottom: 15px;
-
-    width: 270px;
+    left: 79%;
+    top: 205px;
+    bottom: auto;
+  
+    width: 245px;
   }
   .hero__cities {
   top: 170px;
@@ -631,7 +632,7 @@ button {
 @media (min-width: 381px) and (max-width: 399px) {
   .hero__phone {
     left: 77%;
-    top: 200px;
+    top: 220px;
     bottom: auto;
 
     width: 265px;
