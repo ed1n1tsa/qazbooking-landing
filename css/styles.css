@@ -296,7 +296,7 @@ button {
   z-index: 15;
 
   left: 75%;
-  bottom: 52px;
+  bottom: 20px;
 
   width: 290px;
   height: auto;
@@ -553,7 +553,7 @@ button {
 
   .hero__phone {
     left: 77%;
-    bottom: 50px;
+    bottom: 15px;
 
     width: 270px;
   }
