@@ -166,7 +166,8 @@ button {
   position: relative;
   z-index: 10;
 
-  min-height: calc(100svh - 123px);
+  min-height: 760px;
+  height: calc(100svh - 123px);
 }
 
 
@@ -663,50 +664,54 @@ button {
 
 .hero__footer {
   position: absolute;
+  z-index: 30;
+
   left: 50%;
-  bottom: 18px;
+  bottom: 14px;
 
   transform: translateX(-50%);
-
-  z-index: 30;
 
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  width: calc(100% - 30px);
+  width: calc(100% - 28px);
 
   text-align: center;
-
   pointer-events: none;
 }
 
 .hero__footer-text {
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
+  font-size: clamp(11px, 3.2vw, 15px);
   font-weight: 800;
-  letter-spacing: 1px;
+  line-height: 1.05;
+  letter-spacing: 0.5px;
+
+  white-space: nowrap;
   text-transform: uppercase;
 
   color: #ffffff;
 
   text-shadow:
-    0 0 10px rgba(255,255,255,.25);
+    0 2px 6px rgba(0, 0, 0, 0.85);
 }
 
 .hero__footer-brand {
-  margin-top: 2px;
+  margin-top: 3px;
 
   font-family: "Montserrat", sans-serif;
-  font-size: 24px;
+  font-size: clamp(18px, 5vw, 24px);
   font-weight: 900;
-  letter-spacing: 1px;
+  line-height: 1;
+  letter-spacing: 0.5px;
 
+  white-space: nowrap;
   text-transform: uppercase;
 
   color: #1fbd59;
 
   text-shadow:
-    0 0 10px rgba(31,189,89,.45),
-    0 0 22px rgba(31,189,89,.3);
+    0 0 10px rgba(31, 189, 89, 0.55),
+    0 2px 6px rgba(0, 0, 0, 0.8);
 }
